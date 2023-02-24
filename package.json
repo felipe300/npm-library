@@ -17,6 +17,9 @@
   "keywords": [],
   "author": "Felipe Gutierrez",
   "license": "MIT",
+  "peerDependencies": {
+    "zod": "^3"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "tsup": "^6.6.3",
