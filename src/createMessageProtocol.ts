@@ -11,7 +11,7 @@ export const createMessageProtocol = <
     createSender: (func: (event: EventsAsToDiscriminateUnion) => void) => {
       return func
     },
-    createHandler: (func: (event: EventsAsToDiscriminateUnion) => void) => {
+    createReceiver: (func: (event: EventsAsToDiscriminateUnion) => void) => {
       return func
     }
   }

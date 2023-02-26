@@ -13,7 +13,7 @@ const messageBus = createMessageProtocol({
 
 const send = messageBus.createSender(window.postMessage)
 
-const handler = messageBus.createHandler((event) => { })
+const handler = messageBus.createReceiver((event) => { })
 
 // window.addEventListener("message", (event) => {
 //   event.data

@@ -14,7 +14,10 @@
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
-  "keywords": [],
+  "keywords": [
+    "zod",
+    "typescript"
+  ],
   "author": "Felipe Gutierrez",
   "license": "MIT",
   "peerDependencies": {
