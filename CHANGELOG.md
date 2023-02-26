@@ -1,5 +1,11 @@
 # zod-message-bus-practice
 
+## 0.1.1
+
+### Patch Changes
+
+- f7ee628: Rename function
+
 ## 0.1.0
 
 ### Minor Changes
