@@ -1,5 +1,11 @@
 # zod-message-bus-practice
 
+## 0.1.2
+
+### Patch Changes
+
+- abab834: Implement functionality with Zod
+
 ## 0.1.1
 
 ### Patch Changes
