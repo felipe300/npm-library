@@ -6,7 +6,10 @@ specifiers:
   typescript: ^4.9.3
   vite: ^4.1.0
   vitest: ^0.28.5
-  zod: ^3.20.6
+  zod: ^3
+
+dependencies:
+  zod: 3.20.6
 
 devDependencies:
   '@changesets/cli': 2.26.0
@@ -14,7 +17,6 @@ devDependencies:
   typescript: 4.9.5
   vite: 4.1.4
   vitest: 0.28.5
-  zod: 3.20.6
 
 packages:
 
@@ -3093,4 +3095,4 @@ packages:
 
   /zod/3.20.6:
     resolution: {integrity: sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==}
-    dev: true
+    dev: false
