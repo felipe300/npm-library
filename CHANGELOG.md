@@ -1,5 +1,11 @@
 # zod-message-bus-practice
 
+## 0.1.3
+
+### Patch Changes
+
+- ad875ed: Change name to zod-message-protocol-practice
+
 ## 0.1.2
 
 ### Patch Changes
