@@ -7,6 +7,6 @@ export type Prettify<T> = {
 export type EventsConfigToDiscriminateUnion<T extends Record<string, z.ZodRawShape>> = {
   [K in keyof T]: Prettify<{
     type: K
-  } & z.infer<z.ZodObject<T[K]>>
+  } & Omit<z.infer<z.ZodObject<T[K]>>, "type">
   >
 }[keyof T]
