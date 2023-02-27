@@ -11,12 +11,4 @@ const messageBus = createMessageProtocol({
   }
 })
 
-const send = messageBus.createSender(window.postMessage)
-
-const handler = messageBus.createReceiver((event) => { })
-
-// window.addEventListener("message", (event) => {
-//   event.data
-// })
-
-// sender("LOG_IN", { username: "foo", password: "bar" })
+const handler = messageBus.createHandler((event) => { })
